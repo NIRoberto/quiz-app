@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 // import DashboardLayout from "./components/layout/DashboardLayout";
 import pages from "./pages/pages";
-import Layout from "./components/layout/layout";
+import Layout from "./components/layout/Layout";
 // Import other page components
 
 const routes = [
