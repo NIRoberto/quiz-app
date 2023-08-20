@@ -9,9 +9,7 @@ const Signup = () => {
     formState: { errors },
   } = useForm();
 
-  const onSubmit = (data) => {
-    // Add logic to handle signup using data.email and data.password
-  };
+  const onSubmit = (data) => {};
 
   return (
     <div className="flex justify-center h-screen items-center  border">

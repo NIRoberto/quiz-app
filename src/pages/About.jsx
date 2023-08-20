@@ -25,7 +25,6 @@ const About = () => {
             </p>
           </div>
           <div>
-            {/* Insert an image related to your About page */}
             <img
               src="/quiz.webp"
               alt="About Us"
@@ -35,7 +34,6 @@ const About = () => {
         </div>
       </section>
 
-      {/* Mission Section */}
       <section className="bg-dark-yellow text-center py-12">
         <h2 className="text-3xl font-semibold mb-4 text-yellow-500">
           Our Mission

@@ -20,7 +20,6 @@ const GameLibrary = () => {
       description: "Discover countries, capitals, and landmarks in this quiz.",
       link: "/quiz/geography",
     },
-    // Add more game data entries
   ];
 
   return (
