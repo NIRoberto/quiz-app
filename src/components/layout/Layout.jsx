@@ -22,6 +22,20 @@ const servicesLinks = [
     text: 'Tips',
   },
 ];
+const servicesLink = [
+  {
+    path: '/teaching',
+    text: 'Teaching',
+  },
+  {
+    path: '/game-library',
+    text: 'Quizzes',
+  },
+  {
+    path: '/how-to-play',
+    text: 'Tips',
+  },
+];
 
 const Layout = ({ children }) => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);

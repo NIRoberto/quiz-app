@@ -60,7 +60,7 @@ const Home = () => {
                 <h3 className="text-lg font-semibold text-yellow-500">{quiz.title}</h3>
                 <p className="text-gray-600">{quiz.description}</p>
                 <Link to={quiz.link} className="">
-                  <button className="btn btn-secondary capitalize">Start Quiz</button>
+                  <button className="btn btn-primary capitalize">Start Quiz</button>
                 </Link>
               </div>
             ))}
@@ -70,7 +70,7 @@ const Home = () => {
 
       <section className="bg-dark-yellow text-center py-16">
         <h2 className="text-3xl font-semibold  mb-4">Ready to start your learning journey?</h2>
-        <p className=" mb-8">Join QuizQuest now and gain access to a world of knowledge!</p>
+        <p className=" mb-8">Join QUIZLet now and gain access to a world of knowledge!</p>
         <Link to="/signup" className="btn capitalize btn-secondary">
           Sign Up
         </Link>

@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+:root {
+  --p: 45.688 97% 56%;
+  --pf: 45.688 97% 40%;
+  --s: 147.56 85% 52%;
+  --sf: 147.56 85% 40%;
+}
