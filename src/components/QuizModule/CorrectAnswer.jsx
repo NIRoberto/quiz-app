@@ -1,8 +1,14 @@
 import React from 'react';
 import { useEffect } from 'react';
+import { useAudioPlayer } from '../../hooks/useAudioPlayer';
 
 function CorrectAnswer() {
-  useEffect(() => {}, []);
+  const { playAudio, isPlaying } = useAudioPlayer();
+  useEffect(() => {
+    if (!isPlaying) {
+      playAudio('/correct.mp3');
+    }
+  }, []);
   return (
     <div>
       Correct! <img src="/correct.gif" />
@@ -11,4 +17,3 @@ function CorrectAnswer() {
 }
 
 export default CorrectAnswer;
-/Users/mac/Downloads/bankathon/oohno.gif

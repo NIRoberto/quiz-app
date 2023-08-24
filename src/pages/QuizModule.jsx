@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import CorrectAnswer from '../components/QuizModule/CorrectAnswer';
 import IncorrectAnswer from '../components/QuizModule/IncorrectAnswer';
 import { useAudioPlayer } from '../hooks/useAudioPlayer';
 import Leaderboard from './Leaderboard';
@@ -104,7 +105,7 @@ const QuizModule = () => {
               </li>
             ))}
           </ul>
-          {showFeedback && <p className="mt-4">{selectedOption === currentQuestion.correctAnswer ? 'Correct!' : <IncorrectAnswer correctAnswer={currentQuestion.correctAnswer} />}</p>}
+          {showFeedback && <p className="mt-4">{selectedOption === currentQuestion.correctAnswer ? <CorrectAnswer /> : <IncorrectAnswer correctAnswer={currentQuestion.correctAnswer} />}</p>}
           <button className="mt-4 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600" onClick={() => setShowFeedback(true)}>
             Check Answer
           </button>
