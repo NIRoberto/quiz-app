@@ -39,6 +39,36 @@ const Home = () => {
       description: 'Test your knowledge of music genres, artists, and history.',
       link: '/quiz/music',
     },
+    {
+      title: "Amategeko y'umuhanda I",
+      image: './quiz.webp',
+      description: "Iga amategeko y'umuhanda.",
+      link: '/quiz/umuhanda1',
+    },
+    {
+      title: "Amategeko y'umuhanda I",
+      image: './quiz.webp',
+      description: "Iga amategeko y'umuhanda.",
+      link: '/quiz/umuhanda2',
+    },
+    {
+      title: "Amategeko y'umuhanda III",
+      image: './quiz.webp',
+      description: "Iga amategeko y'umuhanda.",
+      link: '/quiz/umuhanda3',
+    },
+    {
+      title: "Amategeko y'umuhanda IV",
+      image: './quiz.webp',
+      description: "Iga amategeko y'umuhanda.",
+      link: '/quiz/umuhanda4',
+    },
+    {
+      title: "Amategeko y'umuhanda V",
+      image: './quiz.webp',
+      description: "Iga amategeko y'umuhanda.",
+      link: '/quiz/umuhanda5',
+    },
   ];
   return (
     <>
