@@ -46,7 +46,7 @@ const Home = () => {
       link: '/quiz/umuhanda1',
     },
     {
-      title: "Amategeko y'umuhanda I",
+      title: "Amategeko y'umuhanda II",
       image: './quiz.webp',
       description: "Iga amategeko y'umuhanda.",
       link: '/quiz/umuhanda2',
